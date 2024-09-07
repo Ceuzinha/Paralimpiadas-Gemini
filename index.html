@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="styleGemini.css"> -->
+    <title>Paralimpiadas</title>
+
+</head>
+<body>
+    <header>
+        <h1>Atletas Paralimpicos</h1>
+    </header>
+    <main>
+        <div class="lenço"><a href=""><img src="Imgs/para-bienvenue.webp" alt="lenço"></a>
+        </div>
+
+        <form id="search-form"> <!-- Gemini recomendou, falou que nu futuro seria util e no final foi. -->
+            <input class="busca" type="text" id="search-input" placeholder="Nome do atleta...">
+            <button class="buscAct" onclick="actionBusca(event)" >Pesquisar</button>
+        </form>
+
+        <section id="resultado-busca" class="sectionBusca" >
+        </section>
+    </main>
+    <footer>
+       <p> 2024 - Atletas Paralimpicos. Todos os direitos reservados. </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
